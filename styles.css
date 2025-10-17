@@ -1,0 +1,36 @@
+.Pagetop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: max-content;
+    background-color: #3B5998;
+}
+.home {
+	display: flex;
+	flex-direction: column;
+}
+.texte-home {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	background-color: #3b5998;
+	color: white;
+    height: max-content;
+}
+.PG {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.info-profile {
+    display: flex;
+    flex-direction: row;
+}
+.Brayan-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3B5998;
+    height: max-content;
+    border: solid 1px #3B5998;
+}
