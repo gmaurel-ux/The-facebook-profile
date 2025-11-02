@@ -1,9 +1,33 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #e0e0e0;
+	margin: 0;
+	padding: 0;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+	margin: auto;
+	background-color: #fff;
+	gap: 4px;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: space-between;
+	width: max-content;
+	background-color: #3b5998;
+	width: 850px;
+}
 .Pagetop {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	width: max-content;
-    background-color: #3B5998;
+	background-color: #3b5998;
 }
 .home {
 	display: flex;
@@ -15,22 +39,160 @@
 	gap: 12px;
 	background-color: #3b5998;
 	color: white;
-    height: max-content;
+	height: max-content;
 }
 .PG {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	color: #538adc;
 }
 .info-profile {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: column;
+	border: solid 1px #3b5998;
+	margin: 4px;
+}
+.img-search {
+	width: max-content;
+	height: 500px;
+}
+.text-para {
+	text-decoration: none;
+	color: #538adc;
+}
+.textpreset1 {
+	color: #fff;
+	gap: 40px;
 }
 .Brayan-profile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #3B5998;
-    height: max-content;
-    border: solid 1px #3B5998;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #3b5998;
+	height: max-content;
+}
+.Picture {
+	border: 1px solid #3b5998;
+}
+.text-set {
+	display: flex;
+	justify-content: start;
+	background-color: #3b5998;
+	color: #fff;
+	font-size: 12px;
+}
+.MP-Brayan {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.text-spe {
+	color: #538adc;
+	border: 1px solid #3b5998;
+}
+.Profile {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin: 10px;
+}
+.ProfileT {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.PP-Brayan {
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+}
+.info-group {
+	border: 1px solid #3b5998;
+	width: 19rem;
+}
+.Group-search {
+	border: 1px dashed #3b5998;
+	width: max-content;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: max-content;
+	color: black;
+	margin: 5px;
+}
+button {
+	background-color: #538adc;
+	border: none;
+	height: 25px;
+	width: 25px;
+	border-bottom: 1px solid #3b5998;
+	border-right: 1px solid #3b5998;
+	color: white;
+}
+.parametttre-profile {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	border: 1px dashed #3b5998;
+	margin: 4px;
+}
+.A-text {
+	text-decoration: none;
+	color: #538adc;
+}
+.Group-IM-co1 {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	gap: 20px;
+}
+.Group-IM-ROW {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+.Group-IM-co2 {
+	display: flex;
+	flex-direction: column;
+}
+.Information {
+	border: 1px solid #3b5998;
+}
+.Span-Center {
+	text-align: left;
+}
+.virgul {
+	color: black;
+}
+th {
+	display: flex;
+	justify-content: start;
+	font-size: 12px;
+}
+table {
+	font-size: 11px;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	background-color: #fff;
+	width: 850px;
+}
+
+.Footer-link {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+	margin: 5px;
+}
+.Footer-span {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
